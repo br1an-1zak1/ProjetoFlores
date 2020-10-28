@@ -33,6 +33,17 @@ p{
   "footer footer footer";
 }
 
+.icon{
+  width: 32px;
+}
+
+.icon-line{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
 .flex{
   display: flex;
   align-items: center;
@@ -64,4 +75,9 @@ p{
   .voltar-topo a{
     padding: 15px;
   }
+}
+
+a:hover{
+  color: var(--bg-verde-2);
+  transition: linear 100ms;
 }
