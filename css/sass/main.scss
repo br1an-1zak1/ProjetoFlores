@@ -38,3 +38,9 @@
   justify-content: space-around;
   flex-flow: row wrap;
 }
+
+@media (max-width: 500px){
+  .flex-contato{
+    justify-content: start;
+  }
+}
