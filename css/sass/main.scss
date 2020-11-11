@@ -1,15 +1,15 @@
 .main{
   grid-area: main;
   height: auto;
-}
 
-.main .content{
-  grid-column: 1 / -1; 
-  padding-bottom: 30px;
-}
-
-.main .content:nth-child(2n){
-  background-color: #60BF8199;
+  .content{
+    grid-column: 1 / -1; 
+    padding-bottom: 30px;
+  }
+  
+  .content:nth-child(2n){
+    background-color: #60BF8199;
+  }
 }
 
 .img-section{
